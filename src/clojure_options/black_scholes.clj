@@ -1,5 +1,6 @@
 ;;
 ;; Black-Scholes option pricing model
+;;
 ;; Copyright (C) 2010 Paul Legato. All rights reserved.
 ;; Licensed under the New BSD License. See the README file for details.
 ;;
