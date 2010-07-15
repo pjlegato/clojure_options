@@ -1,10 +1,15 @@
 Clojure-Options
 
+Copyright (c) 2010 Paul Legato (pjlegato at gmail). All rights reserved.
+
 Black-Scholes (and eventually other) options pricing models in
 Clojure.  Patches are welcome provided they are released under the
 same license as this code as per below, or else public domain.
 
-Copyright (c) 2010 Paul Legato (pjlegato at gmail). All rights reserved.
+================================================================
+Disclaimer: This code comes with NO WARRANTY WHATSOEVER, express or implied.
+There may be any number of bugs. Use at your own risk.
+================================================================
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
