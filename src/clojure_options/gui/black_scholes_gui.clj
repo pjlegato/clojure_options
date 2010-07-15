@@ -9,6 +9,11 @@
 ;;
 ;; With thanks to http://kotka.de/blog/2010/05/Decoupling_Logic_and_GUI.html
 ;;
+;; TODO:
+;;
+;; - Eliminate "Calculate" button and add listeners to
+;;   auto-recalculate whenever an input is changed.
+;; - 
 
 
 (ns clojure-options.gui.black-scholes-gui
@@ -219,9 +224,6 @@
       (.setDefaultCloseOperation JFrame/DISPOSE_ON_CLOSE)
       (.pack)
       (.setVisible true))
-                                      
-
-    
     ))
 
 

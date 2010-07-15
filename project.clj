@@ -5,5 +5,6 @@
 
   :dependencies [; [org.clojure/clojure "1.2.0-SNAPSHOT"]
                  [incanter "1.2.3-SNAPSHOT"]
+                 [com.miglayout/miglayout "3.7.3.1"]
                  ;[org.clojure/clojure-contrib "1.2.0-SNAPSHOT"]
                  ])

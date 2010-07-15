@@ -60,8 +60,8 @@
   [spot timeleft strike riskfree sigma]
   (- (* strike
         (Math/exp (* (- riskfree) timeleft))
-        (n (d2 spot timeleft strike riskfree sigma)))
-     (* spot (n (d1 spot timeleft strike riskfree sigma)))))
+        (n (- (d2 spot timeleft strike riskfree sigma))))
+     (* spot (n (- (d1 spot timeleft strike riskfree sigma))))))
 
 (defn call-delta
   [spot timeleft strike riskfree sigma]
